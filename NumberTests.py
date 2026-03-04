@@ -10,8 +10,14 @@ def isThreeOrFive(n):
 
 def isPrime(p):
   """Returns boolean (True/False) if the value given is prime."""
-
-  return True
+  divisors = []
+  divisor = 2
+  while divisor <= p**0.5:
+    if p % divisor == 0:
+      if divisor != 1 and divisor != p:
+        divisors.append(divisor)
+    divisor += 1
+  return divisors
 
 def isEven(n):
   """Returns boolean about given value being even."""
@@ -40,6 +46,12 @@ def fibonacciSequence(value):
     n = nums[size - 1] + nums[size - 2]
 
   return nums
+def isDivisibleUpto20(num):
+  """returns True if num is evenly divisible by all numbers 1-20"""
+  for i in range (1,21):
+    if num % i != 0:
+      return False
+  return True
 
 #Test your new functions in this main
 def main():
