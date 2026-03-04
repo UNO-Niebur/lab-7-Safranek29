@@ -1,3 +1,8 @@
+#NumberTests.py
+#Name: Louis Safranek
+#Date: 03-04-2026
+#Assignment: Lab 7
+
 from NumberTests import isDivisibleUpto20
 
 """The isDivisibleUpto20 function checks to see if the input num is divisible by every num 1-20.

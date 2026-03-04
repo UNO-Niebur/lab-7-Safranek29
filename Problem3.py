@@ -1,4 +1,7 @@
-
+#NumberTests.py
+#Name: Louis Safranek
+#Date: 03-04-2026
+#Assignment: Lab 7
 
 from NumberTests import isPrime
 """The isPrime function iterates through all values less than or equal to its input and divides the input by that value.

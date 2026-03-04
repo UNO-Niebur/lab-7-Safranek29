@@ -1,4 +1,7 @@
 #NumberTests.py
+#Name: Louis Safranek
+#Date: 03-04-2026
+#Assignment: Lab 7
 
 def isThreeOrFive(n):
   """Returns boolean determination if number is multiple of 3 or 5"""
